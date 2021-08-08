@@ -1,0 +1,137 @@
+/************* Tag section *************/
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em; /*or 24px or 15%*/
+}
+
+h1 {
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 3.5rem; /*<! 1em =100% =16px !><! 1em =100% =16px !>*/
+  color: #003399;
+}
+
+h2 {
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Bungee Shade', cursive;
+  color: black;
+}
+h3{
+  margin: 0 auto;
+  color :#284E78;
+}
+P{
+  margin: 0 auto;
+  font-family: 'Style Script', cursive;
+  font-weight: normal;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+hr{
+  width: 30%;
+  border-width: 10px;
+  border-bottom: 0;
+  border-style: dotted;
+  color: grey;
+  padding: 50px auto;
+}
+a{
+text-decoration: none ;
+color :white;
+margin: 10px 20px;
+}
+/************* class section *************/
+/*      top      */
+.top_conntaniner {
+  background: #171717;
+  color: white;
+  padding: 50px 0;
+}
+.moon{
+height: 400px;
+width: 400px;
+}
+
+.middle-container {
+  background: #EDEDED;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.profile{
+  padding-bottom: 50px;
+  color: #949eb2;
+}
+.skill-row{
+  position: relative;
+  text-align: left;
+  margin: 50px auto;
+  width: 50%;
+  line-height: 2;
+}
+.img-programing{
+  width: 25%;
+  float: right;
+}
+.img-chess{
+  width: 25%;
+  float: right;
+}
+.chess-prag{
+  clear: left;  /* note: clear is untifloat*/
+}
+.btn {
+   background: #7C7C7C;
+   background-image: -webkit-linear-gradient(top, #7C7C7C, rgba(42, 37, 96, 0.9));
+   background-image: -moz-linear-gradient(top, #7C7C7C, rgba(42, 37, 96, 0.9));
+   background-image: -ms-linear-gradient(top, #7C7C7C, rgba(42, 37, 96, 0.9));
+   background-image: -o-linear-gradient(top, #7C7C7C, rgba(42, 37, 96, 0.9));
+   background-image: -webkit-gradient(to bottom, #7C7C7C, rgba(42, 37, 96, 0.9));
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #000000;
+   font-family: Georgia;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #000000 0;
+   background: rgba(42, 37, 96, 0.9);
+   background-image: -webkit-linear-gradient(top, rgba(42, 37, 96, 0.9), #7C7C7C);
+   background-image: -moz-linear-gradient(top, rgba(42, 37, 96, 0.9), #7C7C7C);
+   background-image: -ms-linear-gradient(top, rgba(42, 37, 96, 0.9), #7C7C7C);
+   background-image: -o-linear-gradient(top, rgba(42, 37, 96, 0.9), #7C7C7C);
+   background-image: -webkit-gradient(to bottom, rgba(42, 37, 96, 0.9), #7C7C7C);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.bottom-container {
+  background: #171717;
+  color: white;
+  padding: 50px 0;
+  line-height: 50px;
+}
+/************* idea section *************/
+a:hover{
+  color: grey;
+}
